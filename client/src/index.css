@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(156, 156, 156);
+  font-family: sans-serif;
+}
+
+.bottomcorner{
+  position:absolute;
+  bottom:0;
+  right: 0;
+  width: 300px;
+  text-align: right;
+  color: gray;
+  }
+

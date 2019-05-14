@@ -1,0 +1,41 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "classnames": "^2.2.5",
+    "date-fns": "^1.30.1",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.24.0",
+    "prop-types-extra": "^1.1.0",
+    "react": "^16.8.4",
+    "react-big-calendar": "^0.20.3",
+    "react-big-scheduler": "^0.2.6",
+    "react-country-region-selector": "^1.4.3",
+    "react-dom": "^16.8.4",
+    "react-moment": "^0.7.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^2.1.5",
+    "react-slot": "^0.1.2",
+    "react-tackle-box": "^2.1.0",
+    "redux": "^3.7.2",
+    "redux-devtools-extension": "^2.13.7",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
