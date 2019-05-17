@@ -61,7 +61,7 @@ class Navbar extends Component {
         </li>
 
         <li className="nav-item dropdown align-items-center mt-1 mb-1">
-          <a className="nav-link dropdown-toggle text-light" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a className="nav-link dropdown-toggle text-light" href="/" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             {user.name}
           </a>
           <div className="dropdown-menu bg-dark" aria-labelledby="userDropdown">

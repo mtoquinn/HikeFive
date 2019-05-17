@@ -38,7 +38,7 @@ class PersonCommentWindowForm extends Component {
 
     this.props.addPersonalComment(postId, newComment);
     this.setState({ text: '' });
-    if(this.state.text != '')
+    if(this.state.text !== '')
     { 
       this.props.history.push({
         pathname: `/post/${handle}/${postId}`,

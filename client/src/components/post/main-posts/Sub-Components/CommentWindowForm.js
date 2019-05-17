@@ -34,7 +34,6 @@ class CommentWindowForm extends Component {
     const { user } = this.props.auth;
     const { profile } = this.props.profile;
     const { postId } = this.props;
-    const { errors } = this.state;
 
     const newComment = {
       text: this.state.text,
@@ -44,7 +43,7 @@ class CommentWindowForm extends Component {
 
     this.props.addComment(postId, newComment);
     this.setState({ text: '' });
-    if(this.state.text != '')
+    if(this.state.text !== '')
     { 
       this.props.history.push({
         pathname: `/post/${postId}`, 
