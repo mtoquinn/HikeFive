@@ -35,7 +35,7 @@
     "react-tackle-box": "^2.1.0",
     "redux-devtools-extension": "^2.13.7",
     "redux-logger": "^3.0.6",
-    "validator": "^9.4.1"
+    "validator": "^13.7.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
